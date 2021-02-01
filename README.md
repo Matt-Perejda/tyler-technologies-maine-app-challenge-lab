@@ -6,6 +6,8 @@ The goal of this lab is to provide a simple, step-by-step introduction to code.o
 
 Here is what the UI should look like when you're done:
 
+![](https://github.com/Matt-Perejda/tyler-maine-app-challenge-lab/blob/main/helloworld.png?raw=true)
+
 1. add a text input UI element from the Design tab in your code.org development studio. You can add/edit your placeholder text and make sure to set the id to "in_name" (we'll use this later).
 
 2. Add a submit button to the UI and set the id to "submit" (we'll use this later).
