@@ -24,4 +24,8 @@ The code behind section is written using Javascript and can be viewed as text or
 
 2. Clear - when clear is clicked, the message should be cleared and a new name can be entered into the text field to be submitted.
 
+The code to complete the functionality outlined above is documented in solution.part1.js
+
 Each time we call submit, a new UI label element is created so we have to create our own function to delete this element each time (what would happen if we did not have a clear method?). And a second method to clear out the input text after each submit (what would happen without this method?). Both of these method are implemented in solution2 though see if you can figure this out on your own first.
+
+Try to solve this on your own. If you get stuck, you can ask a classmate or look at solution-part2.js
