@@ -1,4 +1,4 @@
-# tyler-maine-app-challenge-lab
+# tyler-technologies-maine-app-challenge-lab
 
 The goal of this lab is to provide a simple, step-by-step introduction to code.org by building your own hello world application. There are two parts to the lab, creating the user interface and the code behind it.
 
