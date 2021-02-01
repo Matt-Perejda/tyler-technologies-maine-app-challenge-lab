@@ -16,16 +16,18 @@ Here is what the UI should look like when you're done:
 
 ## Code Behind
 
-The code behind section is written using Javascript and can be viewed as text or blocks within code.org studio. The blocks may be helpful when you first get started, though the complete code in this repository will be in plain text. You can refer to the complete code file or the link to the completed project. Below we'll step through and explain each of the functions used.
+The code behind section is written using JavaScript and can be viewed as text or blocks within code.org studio. The blocks may be helpful when you first get started, though the complete code in this repository will be in plain text. Below we'll step through and explain each of the functions required to make the UI interactive.
 
-*onEvent* - this function listens on the UI element with given id for a specified event (in our case a click). We'll use this function in twice in two different places to detect when a user clicks on the submit and clear buttons. Each of those buttons will be "wire up" to it's own onEvent function that will do something when the user clicks on the button.
+*onEvent* - this function listens on the UI element with given id for a specified event (in our case a click). We'll use this function twice in two different places to detect when a user clicks on the submit and clear buttons. Each of those buttons will be "wired up" to it's own onEvent function that will do something when the user clicks on the button.
 
-1. Submit - on submit, we'd like to collect the user entered name and return "Hello {{name}}!"
+1. Submit - on submit, we are collecting the string entered in the name textInput and return "Hello {{name}}!"
 
-2. Clear - when clear is clicked, the message should be cleared and a new name can be entered into the text field to be submitted.
+2. Clear - when clear is clicked, the string should be cleared from the textInput and a new string can be entered into the textInput to be submitted.
 
 The code to complete the functionality outlined above is documented in solution.part1.js
 
 Each time we call submit, a new UI label element is created so we have to create our own function to delete this element each time (what would happen if we did not have a clear method?). And a second method to clear out the input text after each submit (what would happen without this method?). Both of these method are implemented in solution2 though see if you can figure this out on your own first.
+
+The two methods are listed as #TODO items in solution-par1.js to help get you started. 
 
 Try to solve this on your own. If you get stuck, you can ask a classmate or look at solution-part2.js
