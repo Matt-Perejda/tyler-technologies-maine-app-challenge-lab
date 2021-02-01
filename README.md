@@ -28,6 +28,6 @@ The code to complete the functionality outlined above is documented in solution.
 
 Each time we call submit, a new UI label element is created so we have to create our own function to delete this element each time (what would happen if we did not have a clear method?). And a second method to clear out the input text after each submit (what would happen without this method?). Both of these method are implemented in solution2 though see if you can figure this out on your own first.
 
-The two methods are listed as #TODO items in solution-par1.js to help get you started. 
+The two methods are listed as #TODO items in solution-part1.js to help get you started. 
 
 Try to solve this on your own. If you get stuck, you can ask a classmate or look at solution-part2.js
