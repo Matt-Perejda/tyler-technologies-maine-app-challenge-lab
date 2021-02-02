@@ -2,6 +2,8 @@
 
 The goal of this lab is to provide a simple, step-by-step introduction to code.org by building your own hello world application. There are two parts to the lab, creating the user interface and the code behind it.
 
+To get started you will need to make a free acount at [code.org](https://studio.code.org/projects/public) and start a new applab project.
+
 ## User Interface
 
 Here is what the UI should look like when you're done:
@@ -31,3 +33,5 @@ Each time we call submit, a new UI label element is created so we have to create
 The two methods are listed as #TODO items in solution-part1.js to help get you started. 
 
 Try to solve this on your own. If you get stuck, you can ask a classmate or look at solution-part2.js
+
+This is a link to completed and working version of this project: https://studio.code.org/projects/applab/VNU08Zd4ZTLJqqGKyhdj6LoUwaQsBreqajMjdBL51RY
